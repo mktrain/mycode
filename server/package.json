@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://52.66.250.19:9980/mithuntechnologies/repository/nodejs-mss-repo/"
+  "author": "Laszlo Leber (Codeching)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3",
+    "pg": "8.0.3",
+    "cors": "2.8.4",
+    "nodemon": "1.18.3",
+    "sonarqube-scanner": "^2.7.0"
+    "body-parser": "*"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node index.js"
+  }
+}
